@@ -1,6 +1,6 @@
-#Threads
+# Threads
 
-##Thread's States
+## Thread's States
 - New
     The state witch is created.  
 - Runnable  
@@ -15,7 +15,7 @@
     A thread can be terminated, which halts its execution immediately at any given time.  
     Once a thread is terminated, it cannot be resumed. 
 
-##There is no guarantees about scheduling.  
+## There is no guarantees about scheduling.  
 The Thread Scheduler makes all the decisions about which thread runs, how long it is.  
 You cannot control the scheduler.
 
