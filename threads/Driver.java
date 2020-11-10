@@ -18,11 +18,24 @@ public class Driver {
         Thread t2 = new Thread(threadJob);
         Thread t3 = new Thread(threadJob);
 
+        // Set a name. (this is optional)
+        t1.setName("thread 1");
+        t2.setName("thread 2");
+        t3.setName("thread 3");
+
         // 3. Start the Thread.
         t1.start();
         t2.start();
         t3.start();
 
-        System.out.println("This is main method.");
+        try {
+            // wait for thread 1
+            t1.join();
+            // wait for thread 2
+            t2.join();
+            System.out.println("This is main method.");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
