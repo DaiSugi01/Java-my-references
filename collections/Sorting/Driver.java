@@ -28,7 +28,7 @@ public class Driver {
 
         // sort by age using Comparator interface.
         Collections.sort(users, new UserSorter.CompareByAge());
-        System.out.println("\n****** Sort by lastName using Comparator interface ******");
+        System.out.println("\n****** Sort by age using Comparator interface ******");
         printList(users);
 
         /**
@@ -52,11 +52,12 @@ public class Driver {
          * First Name: Allan, Last Name: Smith, Age: 30
          * First Name: Joey, Last Name: Tribiani, Age: 15
          *
-         * ****** Sort by lastName using Comparator interface ******
+         * ****** Sort by age using Comparator interface ******
          * First Name: Monica, Last Name: Geller, Age: 13
          * First Name: Joey, Last Name: Tribiani, Age: 15
          * First Name: Ross, Last Name: Geller, Age: 29
          * First Name: Allan, Last Name: Smith, Age: 30
+         *
          */
 
     }
