@@ -1,7 +1,8 @@
 ## Comparable & Comparator 
 Both Comparable and Comparator is used for sorting array list.
 Both return negative value, positive value, or 0
-### When they are used
+
+## When they are used
 - *Comparable* is used when you want to sort with particular one key.  
 - It's good time to use *Comparator* when you want to have several difference sort keys in your application.
 
