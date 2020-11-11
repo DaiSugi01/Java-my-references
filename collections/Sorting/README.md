@@ -1,4 +1,4 @@
-## Comparable & Comparator 
+# Comparable & Comparator 
 Both Comparable and Comparator is used for sorting array list.
 Both return negative value, positive value, or 0
 
