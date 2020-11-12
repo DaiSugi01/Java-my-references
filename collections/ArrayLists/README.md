@@ -1,4 +1,4 @@
-# ArrayList
+# [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 Resizable-array implementation of the List interface.
 
 ## How does its capacity increase?
