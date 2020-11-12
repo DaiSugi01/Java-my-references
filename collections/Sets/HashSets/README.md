@@ -1,4 +1,4 @@
-# HashSet
+# [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
 HashSet can have unique values, which means it doesn't accept duplicated value. 
 
 ## How a HashSet checks for duplicates

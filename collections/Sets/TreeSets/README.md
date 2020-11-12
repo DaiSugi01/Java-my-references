@@ -1,4 +1,4 @@
-# TreeSet
+# [TreeSet](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
 TreeSet is almost the same as HashSet,  
 However, TreeSet can have objects sorted by compareTo() method. (or you can use comparator to sort them.)
  

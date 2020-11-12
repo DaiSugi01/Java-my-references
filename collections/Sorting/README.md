@@ -1,4 +1,4 @@
-# Comparable & Comparator 
+# [Comparable](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) & [Comparator](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html) 
 Both Comparable and Comparator is used for sorting array list.
 Both return negative value, positive value, or 0
 
